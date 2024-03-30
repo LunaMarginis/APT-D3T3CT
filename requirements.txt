@@ -6,5 +6,4 @@ seaborn
 pefile
 scipy
 requests
-os
 time
