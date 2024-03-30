@@ -1,0 +1,11 @@
+pandas
+streamlit
+matplotlib.pyplot
+mitreattack-python
+seaborn
+pefile
+scipy
+hashlib
+requests
+os
+time
