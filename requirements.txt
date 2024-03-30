@@ -5,7 +5,6 @@ mitreattack-python
 seaborn
 pefile
 scipy
-hashlib
 requests
 os
 time
