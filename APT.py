@@ -9,11 +9,11 @@ import seaborn as sns
 
 # Load and cache the MITRE ATT&CK data
 @st.cache_resource
-def load_attack_data():
+def attack_data():
     attack_data = MitreAttackData("./data/enterprise-attack.json")
     return attack_data
 
-attack_data = load_attack_data()
+attack_data = attack_data()
 
 # Load and cache the list of threat actor groups
 @st.cache_resource
