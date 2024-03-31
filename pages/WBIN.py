@@ -126,7 +126,7 @@ def abc():
     
         if vt_api_key:
             # Check if enough time has passed since the last request
-            time_since_last_request = time.time() - getattr(main, "last_request_time", 0)
+            time_since_last_request = time.time() - getattr(abc, "last_request_time", 0)
             if time_since_last_request < 15:
                 st.write(f"Waiting for {15 - time_since_last_request:.2f} seconds before making the next request...")
                 time.sleep(15 - time_since_last_request)
